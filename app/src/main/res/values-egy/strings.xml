@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Byclicking">عند الضغط علي تسجيل تكون وافقت علي</string>
+    <string name="ChooseCode">اختر الكود</string>
+    <string name="Fullname">الاسم الكامل</string>
+    <string name="TermsandConditions">البنود و الشروط</string>
+    <string name="changelanguage">تغير اللغة</string>
+    <string name="email">الايميل</string>
+    <string name="hello_blank_fragment">اهلا</string>
+    <string name="password">كلمة السر</string>
+    <string name="register">تسجيل</string>
+</resources>

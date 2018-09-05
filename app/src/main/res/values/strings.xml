@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Task002</string>
+    <string name="register">Register</string>
+    <string name="Fullname">Full Name</string>
+    <string name="password">Password</string>
+    <string name="ChooseCode">Choose Code</string>
+    <string name="email">Email</string>
+    <string name="Byclicking"> By clicking register you agree to</string>
+    <string name="TermsandConditions">Terms and Conditions</string>
+    <string name="changelanguage">change language</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

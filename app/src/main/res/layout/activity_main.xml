@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/webview"
+        />
+    <ScrollView
+     android:visibility="visible"
+     android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollview"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miestro.task002.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Fullname"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/full_name"
+        android:background="@drawable/bubble"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:id="@+id/password"
+        android:background="@drawable/bubble"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+    <Spinner
+
+
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/list_small_en"
+        android:layout_weight="5"
+        android:id="@+id/code"
+        />
+    <TextView
+        android:id="@+id/showcode"
+        android:layout_weight="3"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ChooseCode"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:background="@drawable/bubble"
+        />
+
+</LinearLayout>
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:id="@+id/Email"
+        android:background="@drawable/bubble"
+        />
+    <Spinner
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="20sp"
+        android:id="@+id/country"
+        android:background="@drawable/list_en"
+        />
+    <Spinner
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="20sp"
+        android:id="@+id/City"
+        android:background="@drawable/list_en"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    >
+    <TextView
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Byclicking"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/TermsandConditions"
+        android:textColor="@color/red"
+        android:background="@null"
+        android:onClick="goto_terms_conditions"
+        />
+</LinearLayout>
+    <Button
+
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="@string/changelanguage"
+
+        />
+</LinearLayout>
+       </ScrollView></RelativeLayout>
